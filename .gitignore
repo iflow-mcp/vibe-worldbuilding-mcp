@@ -134,3 +134,4 @@ out/
 *_request_body.json
 api_id.txt
 logo_prompt.txt
+level.log

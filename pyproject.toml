@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "iflow-mcp_vibe-worldbuilding-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "A Model Context Protocol server for creating detailed fictional worlds with Claude, complete with automatic image generation"
 authors = [{name = "Vibe Worldbuilding", email = "contact@example.com"}]
 license = {text = "MIT"}
@@ -43,4 +43,4 @@ Homepage = "https://github.com/example/vibe-worldbuilding-mcp"
 Repository = "https://github.com/example/vibe-worldbuilding-mcp"
 
 [project.scripts]
-vibe-worldbuilding = "vibe_worldbuilding_server:main"
+vibe-worldbuilding = "vibe_worldbuilding.server:main"
